@@ -1,0 +1,6 @@
+golang-github-codegangsta-cli (1.22.14+compat1) unstable; urgency=medium
+
+  * Provide a compatibility package for the legacy
+    github.com/codegangsta/cli import path.
+
+ -- Debian13 DDE Packaging Team <packages@debian13-dde.example>  Mon, 06 Apr 2026 13:20:00 +0800

@@ -1,0 +1,17 @@
+Source: golang-github-codegangsta-cli
+Section: golang
+Priority: optional
+Maintainer: Debian13 DDE Packaging Team <packages@debian13-dde.example>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+Homepage: https://github.com/codegangsta/cli
+
+Package: golang-github-codegangsta-cli-dev
+Architecture: all
+Depends: ${misc:Depends}, golang-github-urfave-cli-dev
+Description: compatibility package for the legacy codegangsta/cli import path
+ This package provides the historical Go import path
+ github.com/codegangsta/cli for projects that still reference it.
+ The implementation is provided by the Debian 13
+ golang-github-urfave-cli-dev package.
