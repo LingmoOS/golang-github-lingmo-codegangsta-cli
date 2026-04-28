@@ -1,7 +1,7 @@
 Source: golang-github-codegangsta-cli
 Section: golang
 Priority: optional
-Maintainer: Debian13 DDE Packaging Team <packages@debian13-dde.example>
+Maintainer: Lingmo OS Team <team@lingmo.org>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.7.0
 Rules-Requires-Root: no
